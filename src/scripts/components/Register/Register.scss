@@ -1,0 +1,29 @@
+@import "./../../../index.scss";
+
+.register {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    padding: 30px;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0px 0px 20px -5px rgba(133,131,133,1);
+
+    &__title {
+        display: block;
+        font-size: 28px;
+
+    }
+    &__message {
+        display: block;
+    }
+    &__register-link {
+        display: block;
+        &:hover {
+            color: $color-dodger-blue;
+        }
+    }
+}

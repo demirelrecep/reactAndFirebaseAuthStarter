@@ -1,0 +1,13 @@
+@import "./../../../style-base/reset";
+@import "./../../../style-base/variables";
+
+body {
+    font-family: $font-roboto;
+    overflow: hidden;
+}
+
+.full-page-bg {
+    width: 100vw;
+    height: 100vh;
+    background: $color-main;
+}
